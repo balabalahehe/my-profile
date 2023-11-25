@@ -6,6 +6,10 @@ import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "../components/Icons";
 import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project2 from "../../public/images/projects/agency-website-cover-image.jpg";
+import project3 from "../../public/images/projects/fashion-studio-website.jpg";
+import project4 from "../../public/images/projects/nft-collection-website-cover-image.jpg";
+import project5 from "../../public/images/projects/devdreaming.jpg";
 import { motion } from "framer-motion";
 
 const FramerImage = motion(Image);
@@ -150,12 +154,12 @@ const project = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeatureProject
-                title="Crypto Screener Application"
+                title="Function Studio Website"
                 sumary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
                 local currency."
                 link="/"
                 type="Feature Project"
-                img={project1}
+                img={project3}
                 githubLink="/"
               />
             </div>
@@ -170,28 +174,28 @@ const project = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
+                title="Agency Website"
                 link="/"
                 type="Project"
-                img={project1}
+                img={project2}
                 githubLink="/"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
+                title="Collection Website"
                 link="/"
                 type="Project"
-                img={project1}
+                img={project4}
                 githubLink="/"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
+                title="Dev Dreaming"
                 link="/"
                 type="Project"
-                img={project1}
+                img={project5}
                 githubLink="/"
               />
             </div>
